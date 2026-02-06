@@ -1,0 +1,13 @@
+{
+  "original_samples": 19571,
+  "smote_samples": 25586,
+  "hard_negatives": 983,
+  "hard_positives": 6048,
+  "augmented_samples": 5652,
+  "final_train_samples": 38269,
+  "test_samples": 4893,
+  "baseline_ba": 0.6122728807274458,
+  "improved_ba": 0.644679473343406,
+  "improvement": 0.03240659261596024,
+  "training_time_min": 64.4066760579745
+}

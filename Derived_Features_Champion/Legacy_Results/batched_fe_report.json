@@ -1,0 +1,39 @@
+{
+    "name": "FeatureEngineering_PolyInteractions",
+    "params": {
+        "learningIterations": 200000,
+        "N": 3000,
+        "nu": 10
+    },
+    "duration": 1689.2507419586182,
+    "test_metrics": {
+        "split": "Test",
+        "balanced_accuracy": 0.7227974342371062,
+        "sensitivity": 0.7238938053097345,
+        "specificity": 0.7217010631644778,
+        "precision": 0.5795937647614549,
+        "f1_score": 0.6437565582371458,
+        "accuracy": 0.7224606580829757,
+        "confusion_matrix": {
+            "tn": 2308,
+            "fp": 890,
+            "fn": 468,
+            "tp": 1227
+        }
+    },
+    "train_metrics": {
+        "split": "Train",
+        "balanced_accuracy": 0.72250564790234,
+        "sensitivity": 0.7273532015343759,
+        "specificity": 0.717658094270304,
+        "precision": 0.5771482088503863,
+        "f1_score": 0.643603133159269,
+        "accuracy": 0.7210157886669051,
+        "confusion_matrix": {
+            "tn": 9181,
+            "fp": 3612,
+            "fn": 1848,
+            "tp": 4930
+        }
+    }
+}

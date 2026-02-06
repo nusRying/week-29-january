@@ -1,0 +1,8 @@
+{
+  "experiment": "Unified Champion (Joint Training)",
+  "iterations": 500000,
+  "combined_train_size": 27583,
+  "isic_test_ba": 0.6324350949431891,
+  "ham_test_ba": 0.5340588171831469,
+  "training_duration_hrs": 7.021016842126846
+}

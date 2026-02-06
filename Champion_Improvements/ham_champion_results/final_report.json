@@ -1,0 +1,55 @@
+{
+  "model_name": "HAM-Trained Ensemble Champion (5 Models)",
+  "training_strategy": "Train ensemble on HAM10000, validate on ISIC2019 (bidirectional cross-validation)",
+  "ensemble_config": {
+    "num_models": 5,
+    "parallel_training": true,
+    "voting_method": "probability_averaging"
+  },
+  "scientific_basis": {
+    "mutation_study": "HAM training achieved 86% BA, ISIC external 84% BA",
+    "parameters": "mu=0.04, nu=10 (validated optimal)",
+    "features": "226 raw features (same as mutation study)"
+  },
+  "training_config": {
+    "iterations": 500000,
+    "N": 3000,
+    "mu": 0.04,
+    "nu": 10,
+    "rsl": 100,
+    "training_time_minutes": 161.26
+  },
+  "optimal_threshold": 0.1,
+  "ham10000_internal": {
+    "train_ba": 0.8075100126246136,
+    "test_ba": 0.7351209918068984,
+    "test_sensitivity": 0.5802047781569966,
+    "test_specificity": 0.8900372054568003,
+    "confusion_matrix": {
+      "tn": 2153,
+      "fp": 266,
+      "fn": 246,
+      "tp": 340
+    },
+    "roc_auc": 0.8297913841925484
+  },
+  "isic2019_external": {
+    "ba": 0.5511939867804343,
+    "sensitivity": 0.17561666469963413,
+    "specificity": 0.9267713088612345,
+    "confusion_matrix": {
+      "tn": 14820,
+      "fp": 1171,
+      "fn": 6985,
+      "tp": 1488
+    }
+  },
+  "comparison": {
+    "mutation_study_ham": 0.8606,
+    "mutation_study_isic_external": 0.8418,
+    "current_ham_test": 0.7351209918068984,
+    "current_isic_external": 0.5511939867804343,
+    "difference_ham": -0.12547900819310165,
+    "difference_isic": -0.2906060132195657
+  }
+}

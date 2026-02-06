@@ -1,0 +1,12 @@
+{
+  "tag": "isic_pspec0.7_seed43",
+  "dataset": "isic",
+  "p_spec_target": 0.7,
+  "rsl": 226,
+  "seed": 43,
+  "duration": 245.1674292087555,
+  "final_micro_pop": 136,
+  "train_size": 19571,
+  "val_size": 4893,
+  "val_balanced_accuracy": 0.5141385379136296
+}

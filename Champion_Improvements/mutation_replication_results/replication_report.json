@@ -1,0 +1,36 @@
+{
+  "replication_timestamp": "2026-02-03 12:33:25",
+  "configuration": {
+    "mu": 0.0,
+    "nu": 10,
+    "N": 3000,
+    "iterations": 500000,
+    "p_spec_target": 0.7,
+    "rsl_ham": 226,
+    "rsl_isic": 226,
+    "used_exact_splits": true
+  },
+  "results": {
+    "ham": {
+      "train_ba": 0.6484820066138303,
+      "val_ba": 0.5856721963788213,
+      "sensitivity": 0.1918158567774936,
+      "specificity": 0.9795285359801489,
+      "mutation_study_ba": 0.8606,
+      "difference": -0.27492780362117875,
+      "replicated": false,
+      "training_time_minutes": 68.71984525918961
+    },
+    "isic": {
+      "train_ba": 0.6977831370647819,
+      "val_ba": 0.6814613115498072,
+      "sensitivity": 0.4654867256637168,
+      "specificity": 0.8974358974358975,
+      "mutation_study_ba": 0.8418,
+      "difference": -0.16033868845019283,
+      "replicated": false,
+      "training_time_minutes": 78.634883304437
+    }
+  },
+  "overall_success": false
+}

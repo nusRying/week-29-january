@@ -1,0 +1,17 @@
+{
+  "model_name": "PhD_Champion_Fast_1.1",
+  "source_file": "models/best_hyperparam_model_fast.pkl",
+  "training_parameters": {
+    "iterations": "200,000",
+    "N": 3000,
+    "nu": 5,
+    "mu": 0.08,
+    "rsl": 100
+  },
+  "final_ba": 0.72226,
+  "sensitivity": 0.73787,
+  "specificity": 0.70664,
+  "optimal_threshold": 0.31,
+  "status": "VALIDATED_AND_STABLE",
+  "thesis_impact": "60x Speedup with 99.3% parity to original Gold Model"
+}

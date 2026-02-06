@@ -1,0 +1,10 @@
+{
+  "N": 3000,
+  "nu": 5,
+  "mu": 0.08,
+  "theta_GA": 25,
+  "rule_specificity_limit": 100,
+  "final_test_ba": 0.698615079912985,
+  "mean_cv_ba": 0.680968927766002,
+  "final_train_time_minutes": 84.15224176645279
+}

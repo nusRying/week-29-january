@@ -1,0 +1,17 @@
+# base.yaml
+iterations: 500000
+N: 3000
+nu: 10
+p_sharp: 0.5
+dataset: "binary_features_all.csv"
+seed: 42
+genetic_algorithm: true
+mutation_rate: 0.04
+crossover_rate: 0.8
+---
+# mutation_off.yaml
+genetic_algorithm: true
+mutation_rate: 0.0
+---
+# ga_off.yaml
+genetic_algorithm: false

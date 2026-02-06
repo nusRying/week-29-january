@@ -1,0 +1,34 @@
+{
+    "multiplier": 0.12,
+    "N": 2935,
+    "seed": 44,
+    "duration_total": 19197.477025270462,
+    "duration_training": 18562.030139684677,
+    "train_metrics": {
+        "accuracy": 0.7284758060395483,
+        "precision": 0.5889212827988338,
+        "recall": 0.7152552375331956,
+        "f1_score": 0.6459693537641573,
+        "balanced_accuracy": 0.7253677891722885,
+        "tp": 4848,
+        "tn": 9409,
+        "fp": 3384,
+        "fn": 1930,
+        "rule_efficiency": 3916.6337993059255,
+        "rules_active": 2841
+    },
+    "test_metrics": {
+        "accuracy": 0.7334968322092785,
+        "precision": 0.5946731234866828,
+        "recall": 0.7244837758112095,
+        "f1_score": 0.6531914893617021,
+        "balanced_accuracy": 0.73137884850598,
+        "tp": 1228,
+        "tn": 2361,
+        "fp": 837,
+        "fn": 467,
+        "rule_efficiency": 3884.4437541548223,
+        "rules_active": 2841
+    },
+    "final_rule_count": 2841
+}

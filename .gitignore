@@ -1,0 +1,11 @@
+# System & IDE
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+thumbs.db
+*.tmp
+
+# Note: Large files are ALLOWED (tracked via LFS)

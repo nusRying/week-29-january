@@ -1,0 +1,17 @@
+{
+  "feature_set": "top120_degree3",
+  "num_features": 120,
+  "num_models": 5,
+  "learning_iterations": 200000,
+  "ensemble_weights": {
+    "General_LowMut": 0.15,
+    "Optimal_LowMut": 0.25,
+    "Optimal_MidMut": 0.3,
+    "Optimal_HighMut": 0.2,
+    "Specific_LowMut": 0.1
+  },
+  "val_ensemble_ba": 0.5,
+  "test_ensemble_ba": 0.5,
+  "best_individual_val_ba": 0.6032492653040894,
+  "improvement_over_best": -0.1032492653040894
+}

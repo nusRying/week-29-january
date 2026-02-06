@@ -1,0 +1,36 @@
+{
+  "model_name": "Final PhD Champion (500k)",
+  "training_config": {
+    "iterations": 500000,
+    "N": 3000,
+    "nu": 5,
+    "mu": 0.08,
+    "rsl": 100,
+    "training_time_hours": 0.91
+  },
+  "threshold": 0.31,
+  "isic2019_internal": {
+    "train_ba": 0.7218029902622227,
+    "test_ba": 0.7097094776901863,
+    "test_sensitivity": 0.6140833988985052,
+    "test_specificity": 0.8053355564818675,
+    "confusion_matrix": {
+      "tn": 3864,
+      "fp": 934,
+      "fn": 981,
+      "tp": 1561
+    }
+  },
+  "ham10000_external": {
+    "ba": 0.614253116303437,
+    "sensitivity": 0.31832139201637666,
+    "specificity": 0.9101848405904974,
+    "confusion_matrix": {
+      "tn": 7337,
+      "fp": 724,
+      "fn": 1332,
+      "tp": 622
+    }
+  },
+  "roc_auc": 0.7901627399168747
+}

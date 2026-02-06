@@ -1,0 +1,29 @@
+{
+  "stage1_threshold": 0.2,
+  "stage1_config": {
+    "learning_iterations": 50000,
+    "N": 1500,
+    "nu": 5,
+    "mu": 0.01,
+    "theta_GA": 25,
+    "rule_specificity_limit": 72,
+    "random_state": 42
+  },
+  "stage2_config": {
+    "learning_iterations": 250000,
+    "N": 5000,
+    "nu": 15,
+    "mu": 0.04,
+    "theta_GA": 25,
+    "rule_specificity_limit": 120,
+    "random_state": 42
+  },
+  "val_cascade_ba": 0.6052256111397056,
+  "test_cascade_ba": 0.6048066546016039,
+  "val_rejection_rate": 0.7751890455753117,
+  "test_rejection_rate": 0.777232781524627,
+  "sensitivity": 0.30029498525073745,
+  "specificity": 0.9093183239524703,
+  "training_time_stage1_min": 7.597194329897563,
+  "training_time_stage2_min": 106.53429591655731
+}

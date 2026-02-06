@@ -1,0 +1,9 @@
+{
+  "experiment": "Sequential Transfer learning (Normalized)",
+  "stage1_iterations": 500000,
+  "stage2_iterations": 50000,
+  "final_isic_ba": 0.5815210834205007,
+  "final_ham_ba": 0.6763666681474618,
+  "source_duration_hrs": 0,
+  "fine_tune_duration_min": 8.143981738885243
+}

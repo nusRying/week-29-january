@@ -1,0 +1,12 @@
+{
+  "tag": "ham_pspec0.1_seed43",
+  "dataset": "ham",
+  "p_spec_target": 0.1,
+  "rsl": 44,
+  "seed": 43,
+  "duration": 132.21106505393982,
+  "final_micro_pop": 20,
+  "train_size": 8012,
+  "val_size": 2003,
+  "val_balanced_accuracy": 0.5038363171355499
+}

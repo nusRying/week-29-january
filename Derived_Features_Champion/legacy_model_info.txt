@@ -1,0 +1,13 @@
+=== Model Attributes ===
+N: 3000
+nu: 10
+mu: 0.04
+rule_specificity_limit: 15
+learning_iterations: 500000
+theta_GA: 25
+random_state: 42
+run_time: Not found
+best_params: Not found
+
+=== Feature Info ===
+Num Attributes: 100

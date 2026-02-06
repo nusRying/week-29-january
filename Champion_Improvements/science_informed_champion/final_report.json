@@ -1,0 +1,48 @@
+{
+  "model_name": "Science-Informed PhD Champion",
+  "scientific_basis": {
+    "covering_study": "p_spec=0.5 (optimal geometric prior, 50 experiments)",
+    "mutation_study": "mu=0.04 (stable refinement, 84 experiments)",
+    "baseline_analysis": "nu=10, 500k iterations (best generalization)"
+  },
+  "training_config": {
+    "iterations": 500000,
+    "N": 3000,
+    "p_spec": 0.5,
+    "mu": 0.04,
+    "nu": 10,
+    "rsl": 100,
+    "training_time_minutes": 237.13
+  },
+  "optimal_threshold": 0.1,
+  "isic2019_internal": {
+    "train_ba": 0.7243517551819117,
+    "test_ba": 0.713722754924439,
+    "test_sensitivity": 0.6577498033044846,
+    "test_specificity": 0.7696957065443935,
+    "confusion_matrix": {
+      "tn": 3693,
+      "fp": 1105,
+      "fn": 870,
+      "tp": 1672
+    },
+    "roc_auc": 0.7796454741665569
+  },
+  "ham10000_external": {
+    "ba": 0.628235580109038,
+    "sensitivity": 0.38536335721596726,
+    "specificity": 0.8711078030021089,
+    "confusion_matrix": {
+      "tn": 7022,
+      "fp": 1039,
+      "fn": 1201,
+      "tp": 753
+    }
+  },
+  "comparison_to_baselines": {
+    "original_baseline_isic": 0.7275,
+    "original_baseline_ham": 0.7212,
+    "improvement_isic": -0.013777245075560995,
+    "improvement_ham": -0.09296441989096194
+  }
+}

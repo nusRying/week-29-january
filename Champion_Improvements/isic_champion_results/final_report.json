@@ -1,0 +1,52 @@
+{
+  "model_name": "ISIC-Trained Ensemble Champion (5 Models)",
+  "training_strategy": "Train ensemble on ISIC2019, validate on HAM10000 (parallel)",
+  "ensemble_config": {
+    "num_models": 5,
+    "parallel_training": true,
+    "voting_method": "probability_averaging"
+  },
+  "scientific_basis": {
+    "mutation_study": "ISIC training achieved 84% BA in Part C experiments",
+    "parameters": "mu=0.04, nu=10 (validated optimal)",
+    "features": "226 raw features (same as mutation study)"
+  },
+  "training_config": {
+    "iterations": 500000,
+    "N": 3000,
+    "mu": 0.04,
+    "nu": 10,
+    "rsl": 100,
+    "training_time_minutes": 177.4
+  },
+  "optimal_threshold": 0.13,
+  "isic2019_internal": {
+    "train_ba": 0.75430532965971,
+    "test_ba": 0.7399665609424855,
+    "test_sensitivity": 0.7352478363493312,
+    "test_specificity": 0.7446852855356398,
+    "confusion_matrix": {
+      "tn": 3573,
+      "fp": 1225,
+      "fn": 673,
+      "tp": 1869
+    },
+    "roc_auc": 0.8059888987970006
+  },
+  "ham10000_external": {
+    "ba": 0.7180426448940951,
+    "sensitivity": 0.7113613101330604,
+    "specificity": 0.7247239796551297,
+    "confusion_matrix": {
+      "tn": 5842,
+      "fp": 2219,
+      "fn": 564,
+      "tp": 1390
+    }
+  },
+  "comparison": {
+    "mutation_study_isic": 0.8418,
+    "current_isic_test": 0.7399665609424855,
+    "difference": -0.10183343905751452
+  }
+}

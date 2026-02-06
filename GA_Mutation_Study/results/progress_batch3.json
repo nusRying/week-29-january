@@ -1,0 +1,26 @@
+{
+  "completed": [
+    "PartB1_ga_on_mut_on_ham_seed44",
+    "PartB1_ga_on_mut_off_ham_seed43",
+    "PartB1_ga_off_ham_seed42",
+    "PartB1_ga_off_ham_seed46",
+    "PartB1_ga_on_mut_on_isic_seed45",
+    "PartB1_ga_on_mut_off_isic_seed44",
+    "PartB1_ga_off_isic_seed43",
+    "PartC_pspec0.3_mu0.0_ham_seed42",
+    "PartC_pspec0.3_mu0.04_ham_seed43",
+    "PartC_pspec0.3_mu0.12_ham_seed44",
+    "PartC_pspec0.3_mu0.0_isic_seed44",
+    "PartC_pspec0.3_mu0.12_isic_seed42",
+    "PartB2_mu_0.0_ham_seed42",
+    "PartB2_mu_0.04_ham_seed43",
+    "PartB2_mu_0.12_ham_seed44",
+    "PartB2_mu_0.04_isic_seed42",
+    "PartB2_mu_0.12_isic_seed43",
+    "PartC_pspec0.7_mu0.04_ham_seed42",
+    "PartC_pspec0.7_mu0.12_ham_seed43",
+    "PartC_pspec0.7_mu0.0_isic_seed43",
+    "PartC_pspec0.7_mu0.04_isic_seed44"
+  ],
+  "failed": []
+}

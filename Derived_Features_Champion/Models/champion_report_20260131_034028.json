@@ -1,0 +1,15 @@
+{
+    "name": "Derived_Features_Champion",
+    "timestamp": "20260131_034028",
+    "params": {
+        "learningIterations": 500000,
+        "N": 3000,
+        "nu": 10
+    },
+    "duration": 3906.6533143520355,
+    "metrics": {
+        "balanced_accuracy": 0.7274549358835998,
+        "sensitivity": 0.7510324483775811,
+        "specificity": 0.7038774233896186
+    }
+}

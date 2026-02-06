@@ -1,0 +1,12 @@
+{
+  "source_dataset": "ISIC2019",
+  "target_dataset": "HAM10000",
+  "orig_isic_ba": 0.7137,
+  "orig_ham_ba": 0.6282,
+  "final_isic_ba": 0.5312825493809737,
+  "final_ham_ba": 0.5992651025239095,
+  "isic_delta": -0.18241745061902626,
+  "ham_delta": -0.02893489747609046,
+  "iterations_on_ham": 50000,
+  "total_training_duration_min": 1.7040709257125854
+}

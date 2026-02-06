@@ -1,8 +1,29 @@
 # Evolutionary Derma-Classifier: Cross-Domain Skin Lesion Analysis
 
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Research](https://img.shields.io/badge/PhD-Research-orange)
+
 **Repository for PhD Feature Engineering & Evolutionary Learning Experiments**
 
 This project implements a hybrid **Domain-Invariant Feature Learning + Learning Classifier System (ExSTraCS)** framework designed to solve the problem of **domain shift** in dermatological imaging (ISIC 2019 $\rightarrow$ HAM10000).
+
+> **Viral Topics**: `#deep-learning` `#dermatology` `#evolutionary-algorithms` `#explainable-ai` `#medical-imaging` `#python` `#scikit-learn`
+
+---
+
+## 📜 How to Cite
+If you use this code in your research, please cite:
+
+```bibtex
+@article{DerivedFeatures2026,
+  title={Enhancing Dermatological Classification through Evolutionary Rule-Based Learning},
+  author={PhD Researcher},
+  journal={arXiv preprint},
+  year={2026}
+}
+```
 
 ---
 

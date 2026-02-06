@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+.git
+.vscode
+*.tmp
+thumbs.db
+Derived_Features_Champion/__pycache__
+GA_Mutation_Study/runs
+N_Multipliers_Study/runs
+# Exclude heavy results, keep code/snapshots
+Transfer_Learning_ISIC_to_HAM/Results

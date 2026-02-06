@@ -1,6 +1,7 @@
 # Evolutionary Derma-Classifier: Cross-Domain Skin Lesion Analysis
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Research](https://img.shields.io/badge/PhD-Research-orange)
@@ -78,6 +79,17 @@ To reproduce the transfer learning or mutation studies:
 # Example: Run the transfer learning benchmark
 cd Transfer_Learning_ISIC_to_HAM
 python run_transfer_learning.py
+```
+
+### 4. 🐳 Running with Docker
+Avoid dependency hell by using the pre-configured Docker container:
+
+```bash
+# Build and start the container in background
+docker-compose up -d --build
+
+# Enter the container shell
+docker-compose exec classifier bash
 ```
 
 ---

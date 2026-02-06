@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  classifier:
+    build: .
+    container_name: derma_classifier
+    volumes:
+      - .:/app  # Mount current directory for live edits/results
+    working_dir: /app
+    command: tail -f /dev/null  # Keep container running for interactive shell
